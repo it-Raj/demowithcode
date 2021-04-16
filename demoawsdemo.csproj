@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="LambdaEntryPoint.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="serverless.template" />
+  </ItemGroup>
+
+
+</Project>
